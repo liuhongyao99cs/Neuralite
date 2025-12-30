@@ -61,5 +61,13 @@ All trace files are available for download [here](https://drive.google.com/drive
 * **Data Storage:** Received data is stored in the `frame` class.
 * **Logs:** The system records a frame drop sequence file to track transmission reliability.
 
-## Result
-![Neuralite Result](https://github.com/liuhongyao99cs/Neuralite/blob/main/images/result.png)
+## 📈 Experimental Results
+
+<p align="center">
+  <img src="https://github.com/liuhongyao99cs/Neuralite/blob/main/images/result.png" alt="Neuralite Experimental Results" width="80%">
+</p>
+
+Our experiments demonstrate that Neuralite significantly enhances wireless reliability without compromising data fidelity:
+
+* **Robustness:** Reduces the frame drop rate by **15–24x**.
+* **Accuracy:** Maintains a spike sorting error rate of **<3%**.
