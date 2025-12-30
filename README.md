@@ -4,7 +4,7 @@ Welcome to the streaming control of **Neuralite**, which is a server-driven fram
 
 The high-level workflow is as follows:
 
-![Neuralite Workflow Diagram](path/to/your/image.png)
+![Neuralite Workflow Diagram](https://github.com/liuhongyao99cs/Neuralite/blob/main/images/neuralite_workflow.png)
 
 
 
