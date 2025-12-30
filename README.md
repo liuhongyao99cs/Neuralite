@@ -22,7 +22,15 @@ Once initialized, the system enters a bandwidth-efficient feedback loop:
 3.  **Targeted Querying:** The server analyzes the stream to identify potentially firing neurons. It then instructs the headstage to transmit **high-resolution signal regions** specifically for those active neurons.
 4.  **Processing:** The server receives the requested high-resolution data, performs spike sorting, and forwards the extracted spikes to downstream decoders.
 
+## Trace-driven experiments
 
+To benchmark the efficiency, we provide the trace-driven experiments of Neuralite. 
+
+#### Prequisit
+1. **Spike sorting kernel**
+2. **Downstream neural decoders**
+3. **VScode and ESP-IDF extention**
+4. **Visual studio community 2022**
 
 
 
