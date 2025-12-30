@@ -1,6 +1,10 @@
-## Neuralite: Enabling Wireless High-Resolution Brain-Computer Interfaces
-Welcome to the streaming control of Neuralite, which is a server-driven framework to enable wireless iBCIs.
+# Neuralite: Enabling Wireless High-Resolution Brain-Computer Interfaces
+
+Welcome to the streaming control of **Neuralite**, which is a server-driven framework to enable wireless iBCIs.
+
 The high-level workflow is as follows:
+
+![Neuralite Workflow Diagram](path/to/your/image.png)
 
 
 
