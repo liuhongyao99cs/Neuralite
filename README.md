@@ -2,12 +2,25 @@
 
 Welcome to the streaming control of **Neuralite**, which is a server-driven framework to enable wireless iBCIs.
 
-## Workflow
+## Workflow Overview
 The high-level workflow is as follows:
 
 ![Neuralite Workflow Diagram](https://github.com/liuhongyao99cs/Neuralite/blob/main/images/neuralite_workflow.png)
 
-Neuralite first operates an offline and training stage. The server gathers full-resolution iBCI neural signal frames from the headstage (Note: Constrained by the throughput, the frame is not continuous in time, but it can still capture enough spikes for training). Then, the server constructs a minimal stream, which uses least throughput but can detect activities from all neurons. The headstage first sends this stream to the server. Ther server identifies probobly firing neurons and instructs the headstage to send high-resolution signal region of the firing neurons. With spike sorting, spikes are extracted and further used in downstream decoders.
+Neuralite operates in two primary stages: **Offline Training** and **Online Streaming**.
+
+### 1. Offline & Training Stage
+During this initial phase, the server aggregates full-resolution iBCI neural signal frames from the headstage.
+
+> **Note:** Due to wireless throughput constraints, the frames gathered in this stage are not continuous in time; however, they capture sufficient spike density to train the system effectively.
+
+### 2. Online Streaming Stage
+Once initialized, the system enters a bandwidth-efficient feedback loop:
+
+1.  **Stream Construction:** The server constructs a **minimal stream** protocol that minimizes throughput usage while retaining the ability to detect activity from all neurons.
+2.  **Transmission:** The headstage transmits this minimal stream to the server.
+3.  **Targeted Querying:** The server analyzes the stream to identify potentially firing neurons. It then instructs the headstage to transmit **high-resolution signal regions** specifically for those active neurons.
+4.  **Processing:** The server receives the requested high-resolution data, performs spike sorting, and forwards the extracted spikes to downstream decoders.
 
 
 
