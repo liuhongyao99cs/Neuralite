@@ -86,6 +86,8 @@ If you find our work or this code useful for your research, please cite our pape
   year={2024}
 }
 ```
+### Neuron-aware codec (Hotmobile '24)
+```bibtex
 @inproceedings{liu2024neuron,
   title={Neuron-aware brain-to-computer communication for wireless intracortical bci},
   author={Liu, Hongyao and Wang, Junyi and Chen, Xi and Huang, Jun},
@@ -93,3 +95,7 @@ If you find our work or this code useful for your research, please cite our pape
   pages={107--113},
   year={2024}
 }
+```
+
+## 📜 License
+This project is licensed under the MIT License - see the LICENSE file for details.
