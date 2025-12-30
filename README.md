@@ -1,3 +1,11 @@
+## Neuralite: Enabling Wireless High-Resolution Brain-Computer Interfaces
+Welcome to the streaming control of Neuralite, which is a server-driven framework to enable wireless iBCIs.
+The high-level workflow is as follows:
+
+
+
+
+
 If server runs a trace experiment:
 in server.cpp, comment out step 1-3 in main function. In function computeHdsReq, comment out lines 650-714.
 
